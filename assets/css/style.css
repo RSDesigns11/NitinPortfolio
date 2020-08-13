@@ -390,7 +390,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -652,6 +652,59 @@ section {
 }
 
 .awards .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+/*-------
+# certificates
+-----*/
+.certificates .icon-box {
+  margin-bottom: 20px;
+}
+
+.certificates .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #149ddd;
+  border-radius: 5px;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.certificates .icon i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.certificates .icon-box:hover .icon {
+  background: #fff;
+}
+
+.certificates .icon-box:hover .icon i {
+  color: #149ddd;
+}
+
+.certificates .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.certificates .title a {
+  color: #343a40;
+}
+
+.certificates .title a:hover {
+  color: #149ddd;
+}
+
+.certificates .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
